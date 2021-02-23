@@ -1,0 +1,15 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: boutique
+  namespace: argocd
+spec:
+  destination:
+    namespace: default
+    server: https://kubernetes.default.svc
+  project: boutique
+  source:
+    path: app/services
+    repoURL: https://github.com/J0hn-B/k8s_multi_cluster_config.git
+    targetRevision: HEAD
+  syncPolicy: {}
