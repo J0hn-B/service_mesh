@@ -5,7 +5,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    namespace: rbac-manager
+    namespace: kyverno
     server: https://kubernetes.default.svc
   project: k8s-config
   source:
