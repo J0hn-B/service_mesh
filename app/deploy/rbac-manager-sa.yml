@@ -1,4 +1,4 @@
-# Create a Service Account in default namespace 
+# Create a Service Account in default namespace with view in kube-system edit access in default namespace
 apiVersion: rbacmanager.reactiveops.io/v1beta1
 kind: RBACDefinition
 metadata:

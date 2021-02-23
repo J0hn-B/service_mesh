@@ -1,20 +1,20 @@
-apiVersion: argoproj.io/v1alpha1
-kind: Application
-metadata:
-  name: kyverno
-  namespace: argocd
-spec:
-  destination:
-    namespace: kyverno
-    server: https://kubernetes.default.svc
-  project: k8s-config
-  source:
-    helm:
-      valueFiles:
-        - values.yaml
-    path: k8s/k8s-helm-charts/kyverno
-    repoURL: https://github.com/J0hn-B/_bootstrap.git
-    targetRevision: HEAD
-  syncPolicy:
-    automated:
-      prune: true
+# apiVersion: argoproj.io/v1alpha1
+# kind: Application
+# metadata:
+#   name: kyverno
+#   namespace: argocd
+# spec:
+#   destination:
+#     namespace: kyverno
+#     server: https://kubernetes.default.svc
+#   project: k8s-config
+#   source:
+#     helm:
+#       valueFiles:
+#         - values.yaml
+#     path: k8s/k8s-helm-charts/kyverno
+#     repoURL: https://github.com/J0hn-B/_bootstrap.git
+#     targetRevision: HEAD
+#   syncPolicy:
+#     automated:
+#       prune: true
