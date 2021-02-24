@@ -22,3 +22,9 @@ fi
 # Install ArgoCD
 echo
 source ./argocd_install.sh
+
+# Deploy cluster bootstrap
+cd .. && kubectl apply -f k8s/argo_config/
+
+#  Deploy app
+kubectl apply -f app/argo_config/

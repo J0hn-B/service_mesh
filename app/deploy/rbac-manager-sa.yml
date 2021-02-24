@@ -2,15 +2,15 @@
 apiVersion: rbacmanager.reactiveops.io/v1beta1
 kind: RBACDefinition
 metadata:
-  name: deployment-sa
+  name: admin-sa
 rbacBindings:
-  - name: deployment-sa
+  - name: admin-sa
     subjects:
       - kind: ServiceAccount
-        name: deployment-sa
-        namespace: default
+        name: admin-sa
+        namespace: kube-system
     roleBindings:
       - namespace: kube-system
         clusterRole: view
-      - namespace: default
-        clusterRole: edit
+      # - namespace: default
+      #   clusterRole: edit
