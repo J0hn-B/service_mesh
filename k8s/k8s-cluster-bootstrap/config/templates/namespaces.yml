@@ -8,3 +8,8 @@ kind: Namespace
 apiVersion: v1
 metadata:
   name: argoproj
+---
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: argo-workflows
