@@ -8,9 +8,9 @@ rbacBindings:
     subjects:
       - kind: ServiceAccount
         name: admin-sa
-        namespace: kube-system
+        namespace: argoproj
     roleBindings:
-      - namespace: kube-system
-        clusterRole: view
+      - namespace: argoproj
+        clusterRole: edit
       # - namespace: default
       #   clusterRole: edit
