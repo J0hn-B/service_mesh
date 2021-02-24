@@ -4,7 +4,7 @@ metadata:
   name: rbac-manager
 
 ---
-kind: Namespace
-apiVersion: v1
-metadata:
-  name: kyverno
+# kind: Namespace
+# apiVersion: v1
+# metadata:
+#   name: kyverno
