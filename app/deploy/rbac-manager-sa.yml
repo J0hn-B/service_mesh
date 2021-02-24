@@ -11,6 +11,6 @@ rbacBindings:
         namespace: argoproj
     roleBindings:
       - namespace: argoproj
-        clusterRole: cluster-admin
+        clusterRole: edit
       # - namespace: default
       #   clusterRole: edit
