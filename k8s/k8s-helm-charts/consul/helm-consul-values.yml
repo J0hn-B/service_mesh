@@ -5,7 +5,7 @@ global:
 # Enable the Consul Web UI via a NodePort
 ui:
   service:
-    type: 'NodePort'
+    type: 'ClusterIP'
 
 # Enable Connect for secure communication between nodes
 connectInject:
