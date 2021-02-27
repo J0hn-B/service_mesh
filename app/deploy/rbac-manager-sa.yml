@@ -1,16 +1,16 @@
 # Create a Service Account in default namespace with view in kube-system edit access in default namespace
-apiVersion: rbacmanager.reactiveops.io/v1beta1
-kind: RBACDefinition
-metadata:
-  name: admin-sa
-rbacBindings:
-  - name: admin-sa
-    subjects:
-      - kind: ServiceAccount
-        name: admin-sa
-        namespace: argoproj
-    roleBindings:
-      - namespace: argoproj
-        clusterRole: edit
+# apiVersion: rbacmanager.reactiveops.io/v1beta1
+# kind: RBACDefinition
+# metadata:
+#   name: admin-sa
+# rbacBindings:
+#   - name: admin-sa
+#     subjects:
+#       - kind: ServiceAccount
+#         name: admin-sa
+#         namespace: argoproj
+#     roleBindings:
+#       - namespace: argoproj
+#         clusterRole: edit
       # - namespace: default
       #   clusterRole: edit
