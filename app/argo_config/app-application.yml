@@ -12,7 +12,7 @@ spec:
     directory:
       jsonnet: {}
       recurse: true
-    path: app/deploy
+    path: app/services
     repoURL: https://github.com/J0hn-B/_bootstrap.git
     targetRevision: HEAD
   syncPolicy:
