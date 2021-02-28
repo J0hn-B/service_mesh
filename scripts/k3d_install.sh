@@ -22,6 +22,8 @@ fi
 # Install ArgoCD
 echo
 source ./argocd_install.sh
+echo
+source ./port_forwards.sh
 
 # Deploy cluster bootstrap
 cd .. && kubectl apply -f k8s/argo_config/
