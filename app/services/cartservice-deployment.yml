@@ -10,8 +10,6 @@ spec:
     metadata:
       labels:
         app: cartservice
-      annotations:
-        'consul.hashicorp.com/connect-inject': 'true'
     spec:
       serviceAccountName: default
       terminationGracePeriodSeconds: 5
