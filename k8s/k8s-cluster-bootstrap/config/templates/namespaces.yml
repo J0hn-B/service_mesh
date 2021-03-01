@@ -8,3 +8,9 @@ kind: Namespace
 apiVersion: v1
 metadata:
   name: linkerd
+
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: cert-manager
