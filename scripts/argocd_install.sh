@@ -17,6 +17,6 @@ PASS=$(kubectl get pods -n argocd -l app.kubernetes.io/name=argocd-server -o nam
 echo -e "${CYAN}--> This is your username:${NC}${GREEN} admin${NC}\n"
 echo -e "${CYAN}--> This is your password:${NC}${GREEN} ${PASS}${NC}\n"
 
-echo -e "${CYAN}--> Port-forward ArgoCD service:${NC}${GREEN} kubectl port-forward svc/argocd-server -n argocd 8088:443${NC}\n"
+#echo -e "${CYAN}--> Port-forward ArgoCD service:${NC}${GREEN} kubectl port-forward svc/argocd-server -n argocd 8088:443${NC}\n"
 
-echo -e "${LBLUE}--> Access argocd web ui in:${NC}${GREEN} localhost:8088${NC}\n"
+#echo -e "${LBLUE}--> Access argocd web ui in:${NC}${GREEN} localhost:8088${NC}\n"
