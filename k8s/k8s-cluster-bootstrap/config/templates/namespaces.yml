@@ -1,22 +1,4 @@
 kind: Namespace
 apiVersion: v1
 metadata:
-  name: rbac-manager
-
----
-kind: Namespace
-apiVersion: v1
-metadata:
   name: linkerd
-
----
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: cert-manager
-
----
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: external-secrets
