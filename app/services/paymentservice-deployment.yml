@@ -8,6 +8,8 @@ spec:
       app: paymentservice
   template:
     metadata:
+      annotations:
+        linkerd.io/inject: enabled
       labels:
         app: paymentservice
     spec:

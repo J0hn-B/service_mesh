@@ -8,6 +8,8 @@ spec:
       app: recommendationservice
   template:
     metadata:
+      annotations:
+        linkerd.io/inject: enabled
       labels:
         app: recommendationservice
     spec:

@@ -8,6 +8,8 @@ spec:
       app: productcatalogservice
   template:
     metadata:
+      annotations:
+        linkerd.io/inject: enabled
       labels:
         app: productcatalogservice
     spec:

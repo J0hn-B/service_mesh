@@ -8,6 +8,8 @@ spec:
       app: emailservice
   template:
     metadata:
+      annotations:
+        linkerd.io/inject: enabled
       labels:
         app: emailservice
     spec:
