@@ -8,6 +8,8 @@ spec:
       app: adservice
   template:
     metadata:
+      annotations:
+        linkerd.io/inject: enabled
       labels:
         app: adservice
     spec:
