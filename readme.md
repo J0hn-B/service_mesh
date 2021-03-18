@@ -1,9 +1,9 @@
 # Service Mesh PoC
 
-Deploy Linkerd in a PoC project, in a simple way for demonstration purposes.
+Deploy Linkerd in a PoC project, in a simple way for demonstration purposes.  
 Linkerd works by installing a set of ultralight, transparent proxies next to each service instance.
 
-Prerequisites: Docker
+> Prerequisites: Docker
 
 Following the instructions, a K3d cluster with one server and two agent nodes is created.  
 After cluster creation ArgoCD is getting installed, fetching and configuring Google's [Online Boutique](https://github.com/GoogleCloudPlatform/microservices-demo) test project.
