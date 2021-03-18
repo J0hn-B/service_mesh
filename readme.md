@@ -1,6 +1,6 @@
 # Service Mesh PoC
 
-Deploy Linkerd in a PoC project.
+Deploy Linkerd in a PoC project, in a simple way for demonstration purposes.
 Linkerd works by installing a set of ultralight, transparent proxies next to each service instance.
 
 Prerequisites: Docker
@@ -63,3 +63,5 @@ To continue:
 
    - Validate mTLS for your app  
      `linkerd -n default edges deployment`
+
+Clean up resources: `k3d cluster delete multiserver`
