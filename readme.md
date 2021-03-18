@@ -66,4 +66,4 @@ To continue:
    - Validate mTLS for your app  
      `linkerd -n default edges deployment`
 
-Clean up resources: `k3d cluster delete multiserver`
+> Clean up resources: `k3d cluster delete multiserver`
