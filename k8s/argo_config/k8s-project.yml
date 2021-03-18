@@ -15,5 +15,5 @@ spec:
     - group: "*"
       kind: "*"
   sourceRepos:
-    - https://github.com/J0hn-B/_bootstrap.git
+    - https://github.com/J0hn-B/service_mesh.git
     - "*"

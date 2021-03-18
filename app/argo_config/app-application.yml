@@ -13,7 +13,7 @@ spec:
       jsonnet: {}
       recurse: true
     path: app/services
-    repoURL: https://github.com/J0hn-B/_bootstrap.git
+    repoURL: https://github.com/J0hn-B/service_mesh.git
     targetRevision: HEAD
   syncPolicy:
     automated:
