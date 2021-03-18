@@ -8,8 +8,6 @@ spec:
       app: checkoutservice
   template:
     metadata:
-      annotations:
-        linkerd.io/inject: enabled
       labels:
         app: checkoutservice
     spec:
