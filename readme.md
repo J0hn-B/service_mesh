@@ -61,6 +61,8 @@ To continue:
    - Add the app to Linkerd  
      `kubectl get -n default deploy -o yaml | linkerd inject - | kubectl apply -f -`
 
+     ![linkerd](/assets/2.png)
+
    - Validate mTLS for your app  
      `linkerd -n default edges deployment`
 
