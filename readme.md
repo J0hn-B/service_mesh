@@ -10,8 +10,8 @@ After cluster creation ArgoCD is getting installed, fetching and configuring Goo
 
 To continue:
 
-- `git clone https://github.com/J0hn-B/_bootstrap.git`
-- `cd ~/_bootstrap/`
+- `git clone https://github.com/J0hn-B/service_mesh.git`
+- `cd ~/service_mesh/`
 - `chmod +x /scripts/*.sh`
 - `cd /scripts`
 - `./deploy.sh`  
@@ -28,7 +28,7 @@ To continue:
 
    > reference: (<https://gist.github.com/fntlnz/cf14feb5a46b2eda428e000157447309>)
 
-   - `cd ~/_bootstrap`
+   - `cd ~/service_mesh`
    - `openssl genrsa -out rootCA.key 4096`
    - `openssl req -x509 -new -nodes -key rootCA.key -sha256 -days 1024 -out rootCA.crt`
 
